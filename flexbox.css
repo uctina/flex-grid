@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 0.5rem;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    padding: 1rem;
+}
+
+.sedan h3{
+    color: hsl(0, 0%, 95%);
+    padding: 1rem 0;
+    font-family: 'Lexend','Deca', sans-serif;
+    font-weight: 700;
+}
+
+.sedan p{
+    font-size: 10px;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    padding: 1rem 0;
+    font-family: 'Lexend','Deca', sans-serif;
+    
+}
+
+.sedan button{
+    border-radius: 0.7rem;
+    background-color: hsl(0, 0%, 95%);
+    padding: 0.3rem 0.5rem;
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 1rem;
+}
+
+.suvs h3{
+    color: hsl(0, 0%, 95%);
+    padding: 1rem 0;
+    font-family: 'Lexend','Deca', sans-serif;
+    font-weight: 700;
+}
+
+.suvs p{
+    font-size: 10px;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    padding: 1rem 0;
+    font-family: 'Lexend','Deca', sans-serif;
+}
+
+.suvs button{
+    border-radius: 0.7rem;
+    background-color: hsl(0, 0%, 95%);
+    padding: 0.3rem 0.5rem;
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 1rem;
+}
+
+.luxury h3{
+    color: hsl(0, 0%, 95%);
+    padding: 1rem 0;
+    font-family: 'Lexend','Deca', sans-serif;
+    font-weight: 700;
+}
+
+.luxury p{
+    font-size: 10px;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    padding: 1rem 0;
+    font-family: 'Lexend','Deca', sans-serif;
+}
+
+.luxury button{
+    border-radius: 0.7rem;
+    background-color: hsl(0, 0%, 95%);
+    padding: 0.3rem 0.5rem;
+    color: hsl(179, 100%, 13%);
+}
+
